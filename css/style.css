@@ -117,7 +117,7 @@ hr{
     max-height: 80%;
 }
 .slider{
-    padding: 4% 0;
+    padding: 10% 0;
 }
 .slider-items {
 
@@ -160,4 +160,45 @@ hr{
 .next a{
     text-decoration: none;
     color: white;
+}
+
+.forma{
+    background-image: url(/images/forma.png);
+    background-size: 100% 100%;
+    height: 40rem;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.ostavit_otziv{
+    width: 50%;
+    margin-left: 50%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    line-height: -2;
+}
+.input_v_zayavke{
+    background: inherit;
+    border-color: white;
+    height: 20rem;
+}
+.input_v_zayavke::placeholder{
+    transform: translateY(-1000%);
+}
+.button_v_forme{
+    background-color: black;
+    padding: 1% 5%;
+    text-align: center   ;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-size: 23px;
+    width: 30%;
+    margin: 10% auto;
+}
+footer{
+    padding: 2% 0;
 }
