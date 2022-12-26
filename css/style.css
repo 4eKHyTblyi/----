@@ -1,0 +1,163 @@
+
+body{
+    background-color:#282929;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.a-without-style{
+    text-decoration: none;
+    color: white;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu {
+
+    list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-items {
+    font-weight:lighter;
+     
+}
+header{
+    padding: 1% 0;
+}
+.right{
+    overflow:visible;
+    width:60%;
+
+}
+.left{
+    width: 30%;
+}
+.right img{
+    width: 110%;
+    height: 80%;
+}
+.h1{
+    -webkit-text-stroke: 1px white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: transparent!important;
+    font-size:350px;
+    position: relative;
+    font-weight: 900    ;
+    margin: -80% -10px 0 0;
+}
+.h2{
+    font-size: 60px;
+    margin-top: -10%;
+}
+
+.h3{
+    margin-top: 20%;
+    font-size: 32px;
+    margin-bottom: 20%;
+}
+
+.button{
+    background-color: black;
+    padding: 2% 10%;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-size: 23px;
+    margin: 30% ;
+}
+
+hr{
+    height: 0;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.hr1{
+    width: 10%;
+}
+.hr2{
+    width: 80%;
+}
+.zagolovok{
+    position: absolute;
+    left: 0;
+    align-items: center;
+    width: 100%;
+}
+.zagolovok h2{
+    margin: 0 2%;
+    font-size: 32px;
+    font-weight: 100;
+}
+.blok {
+}
+
+.about-us {
+    margin:5% 0;
+    padding: 10% 5%;
+}
+.blok-inside-about-us{
+    height: 30%;
+    background-color: #D8D8D81A;
+}
+.blok-inside-about-us-p p{
+    font-size: 30px;
+    font-weight: 100;
+    width: 90%;
+    margin: auto;
+    max-height: 80%;
+}
+.slider{
+    padding: 4% 0;
+}
+.slider-items {
+
+    display: flex;
+    
+}
+.slider-item {
+    background-color: #D8D8D81A;
+    padding: 2%;
+    height: 270px;
+    width: 400px;
+    margin-right: 7rem;
+    opacity: 0.4;
+}
+.active{
+    opacity: 1;
+}
+.slider-item-content {
+}
+.name {
+}
+.otziv {
+}
+.date {
+}
+
+.arrows {
+    display: flex;
+    vertical-align: middle;
+    width: 5%;
+    margin: auto;
+    margin-top: 1%;
+}
+.prev a{
+    text-decoration: none;
+    color: white;
+}
+.number {
+}
+.next a{
+    text-decoration: none;
+    color: white;
+}
